@@ -28,7 +28,7 @@ jobs:
   windows:
     runs-on: windows-latest
     steps:
-    - name: Prepare Git for Checkout on Windows
+    - name: Prepare Git for Checkout on Windows1
       run: |
         git config --global core.autocrlf false
         git config --global core.eol lf
